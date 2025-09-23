@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1D1616;
+}
+html {
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+}
+* {
+  transition: 1s ease all;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*header*/
+
+header {
+  padding: 55px;
+  padding-bottom: 0;
+}
+
+nav.menu {
+  display: flex;
+  align-items: center;
+}
+
+nav.menu a {
+  text-decoration: none;    
+  color: #EEEEEE;
+  transition: 300ms;
+}
+
+nav.menu a:hover {
+  color: #D84040;
+}
+
+a.menu_logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  text-indent: 20px;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+.menu_link,
+.menu_link-active {
+  padding: 10px;
+  margin: 10px;
+}
+
+.menu_link-active {
+  font-weight: bold;
+}
+
+/* welcome */
+
+.welcome {
+  padding: 55px;
+  display: flex;
+  justify-content: center;
+  margin-left: 15ch;
+  margin-bottom: 120px;
+}
+
+.welcome_text {
+  max-width: 500px;
+  margin-top: 140px;
+  color: #EEEEEE;
+}
+
+.welcome_header {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.welcome_button {
+  margin-top: 40px;
+
+  display: inline-block;
+  padding: 20px 60px;
+  background-color: #8E1616;
+  color: #EEEEEE;
+  border-radius: 55px;
+  transition: 300ms;
+}
+
+.welcome_button:hover {
+  background-color: #D84040;
+  color: #EEEEEE;
+}
+.welcome_image {
+  width: 40%;
+  height: 40%;
+  margin-left: 15ch;
+}
+
+
+
+.contact {
+  padding: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.contact_top {
+  border-bottom: 2px solid #EEEEEE;
+  padding: 24px;
+  margin-bottom: 40px;
+  color:#EEEEEE;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 1px rgba(251, 155, 210, 0.15);
+}
+
+.input_group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input_group label {
+  font-size: 16px;
+  color: #D84040;
+  padding: 10px 0px;
+  padding-top: 30px;
+}
+
+.input_group input {
+  padding: 10px;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 1px solid #8E1616;
+}
+.input_group input::placeholder {
+  color: #999;
+}
+
+.input_group button[type="submit"] {
+  margin: 30px;
+  padding: 10px 25px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #8E1616;
+  border: 1px solid #8E1616;
+  border-radius: 6px;
+  color: #EEEEEE;
+  cursor: pointer;
+  transition: 300ms;
+
+  display: flex;
+  align-items: center;
+}
+
+.input_group button[type="submit"] img {
+  margin: 10px;
+}
+
+footer {
+  padding: 55px;
+  background: linear-gradient(180deg, #D84040 0%, #8E1616 80%);
+  color: #fff;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer_left {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.footer_logo {
+  display: flex;
+  align-items: center;
+  text-indent: 10px;
+}
+
+.footer_left p {
+  margin: 30px;
+}
+
+.footer_right {
+  display: flex;
+}
+
+.footer_list {
+  padding: 10px;
+  margin: 10px;
+}
+
+.footer_list {
+  font-weight: bold;
+  padding: 20px, 0px;
+}
+
+.footer_list ul {
+  list-style: none;
+}
+
+.footer_list ul li a {
+  color: #EEEEEE;
+  display: block;
+  padding: 15px 20px;
+  padding-left: 0px;
+  text-decoration: none;
+}
+
+.footer_list ul li a:hover {
+  text-decoration: underline;
+}
+
+
+.input_group button[type="submit"]:hover {
+  color: #D84040;
+  background-color: #EEEEEE;
+}
+
+
+
+footer {
+  width: 100%;
+  height: 300px;
+}
+.poke-img {
+  width: auto;
+  height: 50px;
+}
+img {
+  width: 90px;
+  height: auto;
+}
+.download_image {
+  width: 300px;
+  height: auto;
+}
+
+.service_card:hover {
+  transform: scale(1.1);
+}
+
+.welcome_button:hover {
+  box-shadow: 0 0 25px 0 #fb9bd2;
+}
+
+.more-btn:hover {
+  transition: 0.6s;
+}
+
+.service_card {
+  width: 400px;
+  height: 340px;
+}

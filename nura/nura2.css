@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1D1616;
+}
+html {
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+}
+* {
+  transition: 1s ease all;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*header*/
+
+header {
+  padding: 55px;
+  padding-bottom: 0;
+}
+
+nav.menu {
+  display: flex;
+  align-items: center;
+}
+
+nav.menu a {
+  text-decoration: none;    
+  color: #EEEEEE;
+  transition: 300ms;
+}
+
+nav.menu a:hover {
+  color: #D84040;
+}
+
+a.menu_logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  text-indent: 20px;
+}
+img {
+  width: auto;
+  height: 70px;
+}
+.menu_link,
+.menu_link-active {
+  padding: 10px;
+  margin: 10px;
+}
+
+.menu_link-active {
+  font-weight: bold;
+}
+
+.about {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  color: #EEEEEE;
+}
+
+.about_intro {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.about_intro h1 {
+  font-size: 2.5rem;
+  color: #D84040;
+  margin-bottom: 40px;
+}
+
+.about_intro p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.about_values {
+  margin-bottom: 100px;
+}
+
+.about_values h2 {
+  font-size: 2rem;
+  color: #D84040;
+  margin-bottom: 40px;
+}
+
+.about_values ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about_values li {
+  font-size: 1.1rem;
+  margin: 25px 0;
+  color: #EEEEEE;
+}
+
+/* Clients */
+.about_clients {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.about_clients h2 {
+  font-size: 2rem;
+  color: #D84040;
+  margin-bottom: 50px;
+}
+
+.clients_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 50px;
+}
+
+.client_card {
+  background: #2a1f1f;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.client_card:hover {
+  transform: translateY(-8px);
+}
+
+.client_card h3 {
+  margin: 10px 0;
+  color: #fff;
+}
+
+.client_card p {
+  color: #aaa;
+}
+
+footer {
+  background: #0f0a0a;
+  text-align: center;
+  padding: 20px;
+  color: #888;
+}
